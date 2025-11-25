@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>Dataset Chatbot</title>
+</head>
+<body>
+    <h2>Chatbot </h2>
+    <div id="chatbox"></div><br>
+
+    <input id="userInput" placeholder="Type your message...">
+    <button onclick="sendMessage()">Send</button>
+
+    <script>
+        function sendMessage() {
+            let msg = document.getElementById("userInput").value;
+            document.getElementById("chatbox").innerHTML += "<b>You:</b> " + msg + "<br>";
+
+            fetch("/chat", {
+                method: "POST",
+                headers: {"Content-Type": "application/json"},
+                body: JSON.stringify({message: msg})
+            })
+            .then(res => res.json())
+            .then(data => {
+                document.getElementById("chatbox").innerHTML += "<b>Bot:</b> " + data.response + "<br>";
+                document.getElementById("userInput").value = "";
+            });
+        }
+    </script>
+</body>
+</html>
