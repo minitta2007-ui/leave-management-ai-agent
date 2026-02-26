@@ -1,0 +1,79 @@
+[
+    {
+        "student_id": "20244AD001",
+        "name": "AADHAVAN M",
+        "department": "Artificial Intelligence and Data Science",
+        "mobile": "9095020141",
+        "leave_balance": 10
+    },
+    {
+        "student_id": "2024AD003",
+        "name": "ABARNA R",
+        "department": "Artificial Intelligence and Data Science",
+        "mobile": "8438211763",
+        "leave_balance": 10
+    },
+    {
+        "student_id": "2024AD015",
+        "name": "BEETRACE DENBY",
+        "department": "Artificial Intelligence and Data Science",
+        "mobile": "9361183516",
+        "leave_balance": 10
+    },
+    {
+        "student_id": "2024AD019",
+        "name": "DHARSHINI S",
+        "department": "Artificial Intelligence and Data Science",
+        "mobile": "8807182870",
+        "leave_balance": 10
+    },
+    {
+        "student_id": "2024AD022",
+        "name": "DHIVYA SHREE",
+        "department": "Artificial Intelligence and Data Science",
+        "mobile": "7603903072",
+        "leave_balance": 10
+    },
+    {
+        "student_id": "2024AD044",
+        "name": "Kanishka Yazhini",
+        "department": "Artificial Intelligence and Data Science",
+        "mobile": "9361918884",
+        "leave_balance": 10
+    },
+    {
+        "student_id": "2024AD045",
+        "name": "Kanishkumar",
+        "department": "Artificial Intelligence and Data Science",
+        "mobile": "8807498791",
+        "leave_balance": 10
+    },
+    {
+        "student_id": "2024AD048",
+        "name": "KAVIYA S",
+        "department": "Artificial Intelligence and Data Science",
+        "mobile": "9360003706",
+        "leave_balance": 10
+    },
+    {
+        "student_id": "2024AD050",
+        "name": "KUMARESH T",
+        "department": "Artificial Intelligence and Data Science",
+        "mobile": "9677381640",
+        "leave_balance": 10
+    },
+    {
+        "student_id": "2024AD052",
+        "name": "MINITTA R",
+        "department": "Artificial Intelligence and Data Science",
+        "mobile": "8072726791",
+        "leave_balance": 10
+    },
+    {
+        "student_id": "2024AD058",
+        "name": "NATHIYA A",
+        "department": "Artificial Intelligence and Data Science",
+        "mobile": "7550128218",
+        "leave_balance": 10
+    }
+]
